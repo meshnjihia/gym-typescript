@@ -1,25 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
         "gray-20": "#f8f4eb",
-        "gray-50": "#efe6e6",
-        "gray-100": "#dfcccc",
-        "gray-500": "#5e0000",
-        "primary-100": "#ffe1e0",
-        "primary-300": "#ffa6a3",
-        "primary-500": "#ff6b66",
-        "secondary-400": "#ffcd58",
-        "secondary-500" : "#ffc132",
+        "gray-50": "##e6fff2",
+        "gray-100": "#ccffe5",
+        "gray-500": "#003319",
+        "primary-100": "#00b356",
+        "primary-300": "#00994a",
+        "primary-500": "#004c25",
+        "secondary-400": "#33ff95",
+        "secondary-500": "#00ff7b",
       },
       backgroundImage: (theme) => ({
-        "gradient-yellow-red": "linear-gradient(90deg, #ff616a 0%, #ffc837 100%)",
-        "mobile-home" : "url('./assets/HomePageGraphic.png')",
+        "gradient-yellow-red":
+          "linear-gradient(90deg, #ff616a 0%, #ffc837 100%)",
+        "mobile-home": "url('./assets/HomePageGraphic.png')",
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
@@ -35,8 +33,8 @@ module.exports = {
     screens: {
       xs: "480px",
       sm: "768px",
-      md: "1060px"
-    }
+      md: "1060px",
+    },
   },
   plugins: [],
-}
+};
